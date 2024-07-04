@@ -1,6 +1,6 @@
 function fuckKroger() {
     setTimeout(function() {
-        const elems = document.querySelectorAll(".CouponActionButton");
+        const elems = document.querySelectorAll(".CouponActionButton.palette-accent");
         try {
             elems[Math.round(Math.random()*(elems.length))].click();
         } catch (e) {}
